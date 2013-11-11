@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout  android:id="@+id/btn_meter"
+        android:layout_width="fill_parent"
+    	android:layout_height="60dip"
+    	android:orientation="horizontal"
+    	android:paddingTop="8dip"
+		android:layout_gravity="center_vertical|center_horizontal">
+        
+        <ImageView android:id="@+id/lm_meter_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/l_btn_home_normal"/>
+        <TextView android:id="@+id/lm_meter_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_home"/>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_item_divider"/>    
+    
+    <LinearLayout  android:id="@+id/btn_settings"
+        android:layout_width="fill_parent"
+    	android:layout_height="60dip"
+    	android:orientation="horizontal"
+    	android:paddingTop="8dip"
+		android:layout_gravity="center_vertical|center_horizontal">
+        
+        <ImageView android:id="@+id/lm_settings_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/l_btn_settings_normal"/>
+        <TextView android:id="@+id/lm_settings_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_settings"/>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_item_divider"/>    
+        
+   
+    <LinearLayout  android:id="@+id/btn_about"
+        android:layout_width="fill_parent"
+    	android:layout_height="60dip"
+    	android:orientation="horizontal"
+    	android:paddingTop="8dip"
+    	android:layout_gravity="center_vertical|center_horizontal">
+        
+        <ImageView android:id="@+id/lm_about_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/l_btn_about_normal"/>
+        <TextView android:id="@+id/lm_about_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_about"/>
+    </LinearLayout>
+   
+
+</LinearLayout>
