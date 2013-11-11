@@ -17,7 +17,7 @@ public class AboutFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		
+		//added by wangqh. for 2013-11-11 
 		return inflater.inflate(R.layout.about_frame, container , false);
 	}
 
